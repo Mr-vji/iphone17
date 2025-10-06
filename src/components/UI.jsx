@@ -227,7 +227,7 @@ export const UI = ({ section, onSectionChange }) => {
          </div>
 
          {/* DOTS NAVIGATION */}
-         <div className="flex items-center justify-center gap-2 mt-2">
+         {/* <div className="flex items-center justify-center gap-2 mt-2">
             {sections.map((sectionItem, idx) => (
                <div
                   key={sectionItem}
@@ -239,7 +239,7 @@ export const UI = ({ section, onSectionChange }) => {
                   onClick={() => onSectionChange(idx)}
                ></div>
             ))}
-         </div>
+         </div> */}
       </main>
    );
 };
